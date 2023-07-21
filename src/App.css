@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Sora:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+.font-inter {
+  font-family: 'inter';
+}
+
+.font-sora-600 {
+  font-family: 'sora', sans-serif;
+  font-weight: 600;
+}
+
+.font-sora-700 {
+  font-family: 'sora', sans-serif;
+  font-weight: 700;
+}
+
+.font-sora-300 {
+  font-family: 'sora', sans-serif;
+  font-weight: 300;
+}
+
+.font-sora-300 {
+  font-family: 'sora', sans-serif;
+  font-weight: 400;
+}
+
+.font-sora-500 {
+  font-family: 'sora', sans-serif;
+  font-weight: 500;
+}
+
+.font-inter {
+  font-family: 'inter', sans-serif;
+}
+
+.back {
+  background-image: url('./assets/sa.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
