@@ -145,6 +145,7 @@ const Mainsec = () => {
       <a
         href={import.meta.env.VITE_RESUME_URL}
         className=" group text-xl font-sora-500 m-5  flex flex-row flex-nowrap items-center hover:underline transition-all hover:text-sky-500"
+        target="_blank"
       >
         My Resume{" "}
         <FaArrowRight className="group-hover:ml-4 transition-all ml-1" />{" "}
