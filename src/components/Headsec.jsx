@@ -77,7 +77,7 @@ const Headsec = () => {
           </a>
         </li>
         <li>
-          <a href="mailto:karthikeyaenge@hotmail.com" target="_blank">
+          <a href="mailto:karthikeya.enge@hotmail.com" target="_blank">
             <FaEnvelope className="text-3xl hover:text-sky-500 text-slate-400  hover:cursor-pointer" />
           </a>
         </li>
