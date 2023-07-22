@@ -1,5 +1,5 @@
 import React from "react";
-import { FaInstagram, FaLinkedin, FaGithub } from "react-icons/fa6";
+import { FaInstagram, FaLinkedin, FaGithub, FaEnvelope } from "react-icons/fa6";
 
 const Headsec = () => {
   return (
@@ -60,7 +60,7 @@ const Headsec = () => {
         </ul>
       </nav>
 
-      <ul className="flex flex-row lg:justify-center justify-start gap-5 items-center w-1/2 lg:mt-32 self-center">
+      <ul className="flex flex-row lg:justify-center justify-start gap-5 items-center w-2/3 lg:mt-32 self-center">
         <li>
           <a href={import.meta.env.VITE_INSTAGRAM_URL} target="_blank">
             <FaInstagram className="text-3xl hover:text-sky-500 text-slate-400  hover:cursor-pointer" />
@@ -74,6 +74,11 @@ const Headsec = () => {
         <li>
           <a href={import.meta.env.VITE_GITHUB_URL} target="_blank">
             <FaGithub className="text-3xl hover:text-sky-500 text-slate-400  hover:cursor-pointer" />
+          </a>
+        </li>
+        <li>
+          <a href="mailto:karthikeyaenge@hotmail.com" target="_blank">
+            <FaEnvelope className="text-3xl hover:text-sky-500 text-slate-400  hover:cursor-pointer" />
           </a>
         </li>
       </ul>

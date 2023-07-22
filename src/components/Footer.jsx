@@ -1,5 +1,5 @@
 import React from "react";
-
+import { FaLongArrowAltUp } from "react-icons/fa";
 const link = (name, hr) => {
   return (
     <a href={hr} className="hover:text-sky-500 font-sora-600" target="_blank">
@@ -12,14 +12,18 @@ const Footer = () => {
   return (
     <footer className=" my-32">
       <h1 className="font-inter text-slate-400 md:text-lg text-xs">
-        Designed inspired from{" "}
-        {link("Britanny Chiag", "https://brittanychiang.com/")} , Coded in{" "}
-        {link("Visual Studio Code", "https://visu")}. Built by{" "}
-        {link("ViteJS", "https://brittanychiang.com/")} and{" "}
-        {link("ReactJS", "https://brittanychiang.com/")}, Styled by{" "}
-        {link("Tailwindcss", "https://brittanychiang.com/")} and{" "}
-        {link("DaisyUI", "https://brittanychiang.com/")}
+        Design inspired by{" "}
+        {link("Brittany Chiang", "https://brittanychiang.com/")} , Coded in{" "}
+        {link("Visual Studio Code", "https://code.visualstudio.com/")}. Built by{" "}
+        {link("ViteJS", "https://vitejs.dev/")} and{" "}
+        {link("ReactJS", "https://react.dev/")}, Styled by{" "}
+        {link("Tailwind CSS", "https://tailwindcss.com/")} and{" "}
+        {link("DaisyUI", "https://daisyui.com/")}
       </h1>
+
+      <a href="#about" className="p-3 ">
+        <FaLongArrowAltUp />
+      </a>
     </footer>
   );
 };

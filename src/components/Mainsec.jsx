@@ -101,14 +101,18 @@ const Mainsec = () => {
                 Achievements
               </h2>
             </div>
-
-            <figure>
-              {" "}
-              <img src={img3} alt="code" />
-            </figure>
+            <a
+              href="https://www.credly.com/badges/24357bcf-9130-4f62-a0e2-c7c6595912ae/public_url"
+              target="_blank"
+            >
+              <figure>
+                {" "}
+                <img src={img3} alt="code" />
+              </figure>
+            </a>
           </article>
 
-          <article className="flex flex-col gap-2 items-center w-fullrounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-white  bg-opacity-5 border border-none shadow-lg shadow-black p-5 rounded-xl h-56">
+          <article className="flex flex-col gap-2 items-center w-fullrounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-white  bg-opacity-5 border border-none shadow-lg shadow-black p-5 rounded-xl h-56 cursor-pointer">
             <h2 className="font-sora-600 text-slate-100 text-xl">
               Technologies I'v worked
             </h2>
