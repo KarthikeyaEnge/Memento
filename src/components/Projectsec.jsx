@@ -11,7 +11,12 @@ const Projectsec = () => {
       className="flex flex-col gap-2 flex-nowrap w-full mt-16 "
       id="projects"
     >
-      <h2 className="font-sora-600 text-slate-100 my-2 ">PROJECTS</h2>
+      <h2 className="font-sora-600 text-slate-100 my-2 lg:block hidden">
+        PROJECTS
+      </h2>
+      <h2 className="font-sora-600 text-slate-100 my-2 lg:hidden top-0 sticky glass p-2 rounded-lg z-20">
+        PROJECTS
+      </h2>
       <article className=" card lg:card-side gap-3 card-compact  bg-white  w-fullrounded-md bg-clip-padding backdrop-filter backdrop-blur-sm  bg-opacity-5 border border-none flex-shrink-0 shadow-lg shadow-black mt-7">
         <figure className="p-2">
           <img src={proj1} alt="mineskill" className=" rounded-lg " />

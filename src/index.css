@@ -1074,17 +1074,8 @@ html{
   }
 }
 
-.btm-nav-xs{
-  height: 2.5rem;
-}
-
 .btm-nav-xs > *:where(.active){
   border-top-width: 1px;
-}
-
-.btm-nav-xs .btm-nav-label{
-  font-size: 0.75rem;
-  line-height: 1rem;
 }
 
 .btm-nav-sm > *:where(.active){
@@ -1117,6 +1108,18 @@ html{
 
 .card-normal .card-title{
   margin-bottom: 0.75rem;
+}
+
+.sticky{
+  position: sticky;
+}
+
+.top-0{
+  top: 0px;
+}
+
+.z-20{
+  z-index: 20;
 }
 
 .m-1{
@@ -1290,10 +1293,6 @@ html{
   border-radius: 0.75rem;
 }
 
-.rounded-md{
-  border-radius: 0.375rem;
-}
-
 .border{
   border-width: 1px;
 }
@@ -1333,20 +1332,16 @@ html{
   padding: 0.5rem;
 }
 
+.p-3{
+  padding: 0.75rem;
+}
+
 .p-5{
   padding: 1.25rem;
 }
 
 .p-7{
   padding: 1.75rem;
-}
-
-.p-1{
-  padding: 0.25rem;
-}
-
-.p-3{
-  padding: 0.75rem;
 }
 
 .px-2{
@@ -1583,6 +1578,10 @@ html {
 }
 
 @media (min-width: 768px){
+  .md\:visible{
+    visibility: visible;
+  }
+
   .md\:text-lg{
     font-size: 1.125rem;
     line-height: 1.75rem;
@@ -1590,6 +1589,10 @@ html {
 }
 
 @media (min-width: 1024px){
+  .lg\:visible{
+    visibility: visible;
+  }
+
   .lg\:sticky{
     position: sticky;
   }
@@ -1600,6 +1603,10 @@ html {
 
   .lg\:mt-32{
     margin-top: 8rem;
+  }
+
+  .lg\:block{
+    display: block;
   }
 
   .lg\:flex{

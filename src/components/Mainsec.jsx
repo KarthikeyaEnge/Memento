@@ -10,7 +10,9 @@ const Mainsec = () => {
   return (
     <section className="flex-shrink-0  h-auto lg:w-3/5 w-screen flex flex-col flex-nowrap items-center lg:p-2  p-7 lg:pt-36">
       <section id="about">
-        <h2 className="font-sora-600 text-slate-100 my-2 lg:hidden">ABOUT</h2>
+        <h2 className="font-sora-600 text-slate-100 my-2 lg:hidden top-0 sticky glass p-2 rounded-lg">
+          ABOUT
+        </h2>
         <p className="font-sora-500 text-slate-300 text-lg">
           I took Computer Science as my undergrad course, thinking I could build
           something useful that people could use to resolve their issues. I took{" "}
@@ -40,7 +42,12 @@ const Mainsec = () => {
       {/* passion section */}
 
       <section id="passion" className="mt-20">
-        <h2 className="font-sora-600 text-slate-100 my-2 ">PASSION</h2>
+        <h2 className="font-sora-600 text-slate-100 my-2 lg:block hidden">
+          PASSION
+        </h2>
+        <h2 className="font-sora-600 text-slate-100 my-2 lg:hidden top-0 sticky glass p-2 rounded-lg z-20">
+          PASSION
+        </h2>
         <section className="w-full flex flex-row flex-wrap items-center justify-center h-fit gap-2 text-slate-100">
           <article className=" card card-compact w-64 bg-white h-96 w-fullrounded-md bg-clip-padding backdrop-filter backdrop-blur-sm  border border-none shadow-lg shadow-black flex-shrink-0 bg-opacity-5">
             <figure className="h-40">
