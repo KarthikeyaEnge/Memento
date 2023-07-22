@@ -5,12 +5,13 @@ import img2 from "../assets/phy.png";
 import img3 from "../assets/mdb.png";
 import Projectsec from "./Projectsec";
 import Footer from "./Footer";
+import { FaArrowRight } from "react-icons/fa6";
 
 const Mainsec = () => {
   return (
     <section className="flex-shrink-0  h-auto lg:w-3/5 w-screen flex flex-col flex-nowrap items-center lg:p-2  p-7 lg:pt-36">
       <section id="about">
-        <h2 className="font-sora-600 text-slate-100 my-2 lg:hidden top-0 sticky glass p-2 rounded-lg">
+        <h2 className="font-sora-600 text-slate-100 my-2 lg:hidden top-0 sticky bg-slate-900 bg-opacity-10 backdrop-blur-md p-2 rounded-lg">
           ABOUT
         </h2>
         <p className="font-sora-500 text-slate-300 text-lg">
@@ -45,7 +46,7 @@ const Mainsec = () => {
         <h2 className="font-sora-600 text-slate-100 my-2 lg:block hidden">
           PASSION
         </h2>
-        <h2 className="font-sora-600 text-slate-100 my-2 lg:hidden top-0 sticky glass p-2 rounded-lg z-20">
+        <h2 className="font-sora-600 text-slate-100 my-2 lg:hidden top-0 sticky bg-slate-900 bg-opacity-10  backdrop-blur-md p-2 rounded-lg z-20">
           PASSION
         </h2>
         <section className="w-full flex flex-row flex-wrap items-center justify-center h-fit gap-2 text-slate-100">
@@ -140,6 +141,14 @@ const Mainsec = () => {
           </article>
         </section>
       </section>
+
+      <a
+        href={import.meta.env.VITE_RESUME_URL}
+        className=" group text-xl font-sora-500 m-5  flex flex-row flex-nowrap items-center hover:underline transition-all hover:text-sky-500"
+      >
+        My Resume{" "}
+        <FaArrowRight className="group-hover:ml-4 transition-all ml-1" />{" "}
+      </a>
 
       {/**projects section */}
       <Projectsec />
