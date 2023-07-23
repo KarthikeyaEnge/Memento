@@ -25,7 +25,7 @@ const Projectsec = () => {
         <section className="flex flex-col items-center justify-center gap-3 p-2">
           <h2 className="card-title flex flex-row items-center flex-wrap">
             <a
-              href="https://minkesill.onrender.com"
+              href="https://mineskill.onrender.com/"
               target="_blank"
               className=" font-sora-600 text-slate-200 hover:text-sky-400 "
             >
