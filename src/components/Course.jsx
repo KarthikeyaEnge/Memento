@@ -70,7 +70,7 @@ const Course = () => {
       </article>
 
       <article className=" card lg:card-side gap-3 card-compact  bg-white  w-fullrounded-md bg-clip-padding backdrop-filter backdrop-blur-sm  bg-opacity-5 border border-none flex-shrink-0 shadow-lg shadow-black mt-7">
-        <figure className="p-2  w-80 h-72 bg-white">
+        <figure className="p-2  w-full h-auto bg-white">
           <img src={meta} alt="mineskill" className=" rounded-lg " />
         </figure>
 
