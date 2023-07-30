@@ -3,7 +3,7 @@ import proj1 from "../assets/ms.png";
 import proj3 from "../assets/rs.png";
 import proj2 from "../assets/am.png";
 import { Link } from "react-router-dom";
-import { FaGithub } from "react-icons/fa6";
+import { FaGithub, FaUpRightFromSquare } from "react-icons/fa6";
 
 const Projectsec = () => {
   return (
@@ -27,9 +27,10 @@ const Projectsec = () => {
             <a
               href="https://mineskill.onrender.com/"
               target="_blank"
-              className=" font-sora-600 text-slate-200 hover:text-sky-400 "
+              className=" font-sora-600 text-slate-200 hover:text-sky-400 flex flex-row flex-nowrap gap-2 items-center"
             >
               MINESKILL
+              <FaUpRightFromSquare className="text-sm text-slate-400" />
             </a>
             <a
               href="https://github.com/KarthikeyaEnge/StudyScraper_FrontEnd"
@@ -77,13 +78,18 @@ const Projectsec = () => {
         <section className="flex flex-col items-center justify-center gap-3 p-2">
           <h2 className="card-title flex flex-row items-center flex-wrap ">
             <a
-              href="https://cvr-attendence-manager.onrender.com"
-              className="font-sora-600 text-slate-200 hover:text-sky-400 "
+              href="https://github.com/KarthikeyaEnge/Attendance_mng"
+              className="font-sora-600 text-slate-200 hover:text-sky-400 flex flex-row flex-nowrap gap-2 items-center"
               target="_blank"
             >
               ATTENDANCE_MANAGER
+              <FaUpRightFromSquare className="text-sm text-slate-400" />
             </a>
-            <a href="" className="badge hover:text-sky-300" target="_blank">
+            <a
+              href="https://github.com/KarthikeyaEnge/Attendance_mng"
+              className="badge hover:text-sky-300"
+              target="_blank"
+            >
               <FaGithub className="m-1" /> Github repo
             </a>
           </h2>
@@ -125,9 +131,10 @@ const Projectsec = () => {
             <a
               href="https://github.com/KarthikeyaEnge/Learn-web_progs/tree/main/web_adv/webpage_15"
               target="_blank"
-              className=" font-sora-600 text-slate-200 hover:text-sky-400 "
+              className=" font-sora-600 text-slate-200 hover:text-sky-400 flex flex-row flex-nowrap gap-2 items-center "
             >
               RAILRESERVE SYS.
+              <FaUpRightFromSquare className="text-sm text-slate-400" />
             </a>
             <a
               href="https://github.com/KarthikeyaEnge/Learn-web_progs/tree/main/web_adv/webpage_15"

@@ -6,6 +6,7 @@ import img3 from "../assets/mdb.png";
 import Projectsec from "./Projectsec";
 import Footer from "./Footer";
 import { FaArrowRight } from "react-icons/fa6";
+import Course from "./Course";
 
 const Mainsec = () => {
   return (
@@ -153,6 +154,8 @@ const Mainsec = () => {
 
       {/**projects section */}
       <Projectsec />
+      <Course />
+
       <Footer />
     </section>
   );
