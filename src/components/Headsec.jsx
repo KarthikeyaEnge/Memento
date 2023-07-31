@@ -7,7 +7,7 @@ const Headsec = () => {
         <h1 className=" lg:text-5xl  text-4xl font-sora-700 text-slate-50">
           Karthikeya Enge
         </h1>
-        <ul className="steps steps-vertical font-sora-600 lg:text-xl text-md font-semibold text-sky-500">
+        <ul className="steps steps-vertical font-sora-600 lg:text-xl text-sm font-semibold text-sky-500">
           <li data-content="" className="step step-info">
             MERN Stack Developer
           </li>
