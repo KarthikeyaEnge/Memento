@@ -48,3 +48,8 @@ html {
   background-position: center;
   background-size: cover;
 }
+
+.active-scroll-spy {
+  transform: scale(1.5);
+  color: rgb(41, 187, 245);
+}

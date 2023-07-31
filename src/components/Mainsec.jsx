@@ -5,12 +5,12 @@ import img2 from "../assets/phy.png";
 import img3 from "../assets/mdb.png";
 import Projectsec from "./Projectsec";
 import Footer from "./Footer";
-import { FaArrowRight } from "react-icons/fa6";
+import { FaFile } from "react-icons/fa6";
 import Course from "./Course";
-
 const Mainsec = () => {
   return (
-    <section className="flex-shrink-0  h-auto lg:w-3/5 w-screen flex flex-col flex-nowrap items-center lg:p-2  p-7 lg:pt-36">
+    <section className="flex-shrink-0  h-auto lg:w-3/5 w-screen flex flex-col flex-nowrap items-center lg:p-2  p-7 lg:pt-14 ">
+      {" "}
       <section id="about">
         <h2 className="font-sora-600 text-slate-100 my-2 lg:hidden top-0 sticky bg-slate-900 bg-opacity-10 backdrop-blur-md p-2 rounded-lg">
           ABOUT
@@ -40,9 +40,7 @@ const Mainsec = () => {
           Family and Friends.
         </p>
       </section>
-
       {/* passion section */}
-
       <section id="passion" className="mt-20">
         <h2 className="font-sora-600 text-slate-100 my-2 lg:block hidden">
           PASSION
@@ -98,9 +96,7 @@ const Mainsec = () => {
           </article>
         </section>
       </section>
-
       {/**skills section */}
-
       <section id="skills" className="mt-20 ">
         <section className="flex flex-row flex-wrap gap-2 items-center justify-center">
           <article className=" card card-compact w-64 bg-white  w-fullrounded-md bg-clip-padding backdrop-filter backdrop-blur-sm  bg-opacity-5 border border-none shadow-lg shadow-black flex-shrink-0 h-56">
@@ -140,22 +136,18 @@ const Mainsec = () => {
               alt="skills-1"
             />
           </article>
+          <a
+            href={import.meta.env.VITE_RESUME_URL}
+            className=" text-xl font-inter mt-2 flex flex-row flex-nowrap items-center  transition-all hover:text-sky-500 py-2 px-4 border border-sky-500 bg-sky-400 bg-opacity-10 text-white rounded-3xl shadow-sm shadow-black gap-4"
+            target="_blank"
+          >
+            <FaFile /> My Resume
+          </a>
         </section>
       </section>
-
-      <a
-        href={import.meta.env.VITE_RESUME_URL}
-        className=" group text-xl font-sora-500 m-5  flex flex-row flex-nowrap items-center hover:underline transition-all hover:text-sky-500"
-        target="_blank"
-      >
-        My Resume{" "}
-        <FaArrowRight className="group-hover:ml-4 transition-all ml-1" />{" "}
-      </a>
-
       {/**projects section */}
       <Projectsec />
       <Course />
-
       <Footer />
     </section>
   );
