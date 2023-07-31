@@ -1762,6 +1762,14 @@ html {
     margin-top: 8rem;
   }
 
+  .lg\:mt-24{
+    margin-top: 6rem;
+  }
+
+  .lg\:mt-20{
+    margin-top: 5rem;
+  }
+
   .lg\:block{
     display: block;
   }

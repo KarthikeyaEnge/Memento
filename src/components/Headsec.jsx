@@ -65,7 +65,7 @@ const Headsec = () => {
         </ul>
       </nav>
 
-      <ul className="flex flex-row lg:justify-center justify-start gap-5 items-center w-2/3 lg:mt-32 self-center">
+      <ul className="flex flex-row lg:justify-center justify-start gap-5 items-center w-2/3 lg:mt-20 self-center">
         <li>
           <a href={import.meta.env.VITE_INSTAGRAM_URL} target="_blank">
             <FaInstagram className="text-3xl hover:text-sky-500 text-slate-400  hover:cursor-pointer" />
