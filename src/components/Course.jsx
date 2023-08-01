@@ -33,7 +33,7 @@ const Course = () => {
             </a>
           </h2>
 
-          <p className="text-md font-sora-500">
+          <p className="text-md font-sora-500 text-slate-200">
             MongoDb Node.js Developer Path course helps developers to learn
             MongoDB Node.js Drivers and also teaches various topics like Data
             Modeling, Indexing, Document Model etc.
@@ -42,7 +42,7 @@ const Course = () => {
           <div className="flex flex-row gap-2 items-center flex-nowrap p-2 backdrop-blur-sm bg-sky-500 bg-opacity-20 border border-sky-500 rounded-md">
             <FaLink className="text-sm text-slate-400" />
             <a
-              href="https://www.credly.com/badges/24357bcf-9130-4f62-a0e2-c7c6595912ae"
+              href="https://www.credly.com/badges/24357bcf-9130-4f62-a0e2-c7c6595912ae/public_url"
               target="_blank"
             >
               Cerdentials
@@ -50,19 +50,19 @@ const Course = () => {
           </div>
           <h1 className="text-slate-100 font-sora-500">Earned Skills:</h1>
           <ul className="flex flex-row gap-3 items-center flex-wrap justify-center">
-            <li className="badge   bg-cyan-400 bg-opacity-30 text-cyan-500 font-inter font-normal">
+            <li className="badge ring-0 border-none outline-none   bg-cyan-400 bg-opacity-30 text-cyan-500 font-inter font-normal">
               Drivers
             </li>
-            <li className="badge   bg-cyan-400 bg-opacity-30 text-cyan-500 font-inter font-normal">
+            <li className="badge ring-0 border-none outline-none   bg-cyan-400 bg-opacity-30 text-cyan-500 font-inter font-normal">
               CRUD
             </li>
-            <li className="badge   bg-cyan-400 bg-opacity-30 text-cyan-500 font-inter font-normal">
+            <li className="badge ring-0 border-none outline-none   bg-cyan-400 bg-opacity-30 text-cyan-500 font-inter font-normal">
               Data Modeling
             </li>
-            <li className="badge   bg-cyan-400 bg-opacity-30 text-cyan-500 font-inter font-normal">
+            <li className="badge ring-0 border-none outline-none   bg-cyan-400 bg-opacity-30 text-cyan-500 font-inter font-normal">
               Indexes
             </li>
-            <li className="badge   bg-cyan-400 bg-opacity-30 text-cyan-500 font-inter font-normal">
+            <li className="badge ring-0 border-none outline-none   bg-cyan-400 bg-opacity-30 text-cyan-500 font-inter font-normal">
               MongoDB Atlas
             </li>
           </ul>
@@ -86,7 +86,7 @@ const Course = () => {
             </a>
           </h2>
 
-          <p className="text-md font-sora-500">
+          <p className="text-md font-sora-500 text-slate-200">
             This is a beginner course for learners who would like to prepare
             themselves for a career in UX/UI development.
           </p>
@@ -94,7 +94,7 @@ const Course = () => {
           <div className="flex flex-row gap-2 items-center flex-nowrap p-2 backdrop-blur-sm bg-sky-500 bg-opacity-20 border border-sky-500 rounded-md">
             <FaLink className="text-sm text-slate-400" />
             <a
-              href="https://www.coursera.org/account/accomplishments/certificate/HBJKQZPUEJSH"
+              href="https://coursera.org/share/d694960fede2e2e73318aadb2ca3486e"
               target="_blank"
             >
               Cerdentials
@@ -102,16 +102,16 @@ const Course = () => {
           </div>
           <h1 className="text-slate-100 font-sora-500">Earned Skills:</h1>
           <ul className="flex flex-row gap-3 items-center flex-wrap justify-center">
-            <li className="badge   bg-cyan-400 bg-opacity-30 text-cyan-500 font-inter font-normal">
+            <li className="badge ring-0 border-none outline-none   bg-cyan-400 bg-opacity-30 text-cyan-500 font-inter font-normal">
               Web Design
             </li>
-            <li className="badge   bg-cyan-400 bg-opacity-30 text-cyan-500 font-inter font-normal">
+            <li className="badge ring-0 border-none outline-none   bg-cyan-400 bg-opacity-30 text-cyan-500 font-inter font-normal">
               User Experience (UX)
             </li>
-            <li className="badge   bg-cyan-400 bg-opacity-30 text-cyan-500 font-inter font-normal">
+            <li className="badge ring-0 border-none outline-none   bg-cyan-400 bg-opacity-30 text-cyan-500 font-inter font-normal">
               Front-End Web Development
             </li>
-            <li className="badge   bg-cyan-400 bg-opacity-30 text-cyan-500 font-inter font-normal">
+            <li className="badge ring-0 border-none outline-none   bg-cyan-400 bg-opacity-30 text-cyan-500 font-inter font-normal">
               Accessibility
             </li>
           </ul>

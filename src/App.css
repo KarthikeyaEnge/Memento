@@ -53,3 +53,7 @@ html {
   transform: scale(1.5);
   color: rgb(41, 187, 245);
 }
+
+.card {
+  color: white;
+}

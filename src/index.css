@@ -1207,13 +1207,12 @@ html{
   margin-bottom: 8rem;
 }
 
-.my-4{
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-}
-
 .mt-16{
   margin-top: 4rem;
+}
+
+.mt-2{
+  margin-top: 0.5rem;
 }
 
 .mt-20{
@@ -1226,14 +1225,6 @@ html{
 
 .mt-7{
   margin-top: 1.75rem;
-}
-
-.mb-4{
-  margin-bottom: 1rem;
-}
-
-.mt-2{
-  margin-top: 0.5rem;
 }
 
 .flex{
@@ -1369,6 +1360,10 @@ html{
   overflow-y: scroll;
 }
 
+.rounded-3xl{
+  border-radius: 1.5rem;
+}
+
 .rounded-lg{
   border-radius: 0.5rem;
 }
@@ -1379,14 +1374,6 @@ html{
 
 .rounded-xl{
   border-radius: 0.75rem;
-}
-
-.rounded-2xl{
-  border-radius: 1rem;
-}
-
-.rounded-3xl{
-  border-radius: 1.5rem;
 }
 
 .border{
@@ -1586,6 +1573,17 @@ html{
   --tw-shadow: var(--tw-shadow-colored);
 }
 
+.outline-none{
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+}
+
+.ring-0{
+  --tw-ring-offset-shadow: var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);
+  --tw-ring-shadow: var(--tw-ring-inset) 0 0 0 calc(0px + var(--tw-ring-offset-width)) var(--tw-ring-color);
+  box-shadow: var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000);
+}
+
 .backdrop-blur-lg{
   --tw-backdrop-blur: blur(16px);
   -webkit-backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
@@ -1661,6 +1659,10 @@ html {
 .active-scroll-spy {
   transform: scale(1.5);
   color: rgb(41, 187, 245);
+}
+
+.card {
+  color: white;
 }
 
 @media (min-width: 1024px){
@@ -1756,14 +1758,6 @@ html {
 
   .lg\:top-0{
     top: 0px;
-  }
-
-  .lg\:mt-32{
-    margin-top: 8rem;
-  }
-
-  .lg\:mt-24{
-    margin-top: 6rem;
   }
 
   .lg\:mt-20{

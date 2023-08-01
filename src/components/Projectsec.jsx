@@ -23,7 +23,7 @@ const Projectsec = () => {
         </figure>
 
         <section className="flex flex-col items-center justify-center gap-3 p-2">
-          <h2 className="card-title flex flex-row items-center flex-wrap">
+          <h2 className="card-title flex flex-row items-center justify-center flex-wrap">
             <a
               href="https://mineskill.onrender.com/"
               target="_blank"
@@ -34,14 +34,14 @@ const Projectsec = () => {
             </a>
             <a
               href="https://github.com/KarthikeyaEnge/StudyScraper_FrontEnd"
-              className="badge hover:text-sky-300"
+              className="badge ring-0 border-none outline-none hover:text-sky-300"
               target="_blank"
             >
               <FaGithub className="m-1" /> Github repo
             </a>
           </h2>
 
-          <p className="text-md font-sora-500">
+          <p className="text-md font-sora-500 text-slate-200">
             A web App that helps students to find quality content in web, videos
             with just their syllabus copy scan/photo. Just upload the syllabus
             copy you can get quality content like videos, website-links and
@@ -50,19 +50,19 @@ const Projectsec = () => {
 
           <h1 className="text-slate-100 font-sora-500">Build with</h1>
           <ul className="flex flex-row gap-3 items-center flex-wrap justify-center">
-            <li className="badge   bg-cyan-400 bg-opacity-30 text-cyan-500 font-inter font-normal">
+            <li className="badge ring-0 border-none outline-none   bg-cyan-400 bg-opacity-30 text-cyan-500 font-inter font-normal">
               ReactJS
             </li>
-            <li className="badge   bg-cyan-400 bg-opacity-30 text-cyan-500 font-inter font-normal">
+            <li className="badge ring-0 border-none outline-none   bg-cyan-400 bg-opacity-30 text-cyan-500 font-inter font-normal">
               ViteJS
             </li>
-            <li className="badge   bg-cyan-400 bg-opacity-30 text-cyan-500 font-inter font-normal">
+            <li className="badge ring-0 border-none outline-none   bg-cyan-400 bg-opacity-30 text-cyan-500 font-inter font-normal">
               MongoDB
             </li>
-            <li className="badge   bg-cyan-400 bg-opacity-30 text-cyan-500 font-inter font-normal">
+            <li className="badge ring-0 border-none outline-none   bg-cyan-400 bg-opacity-30 text-cyan-500 font-inter font-normal">
               ExpressJS
             </li>
-            <li className="badge   bg-cyan-400 bg-opacity-30 text-cyan-500 font-inter font-normal">
+            <li className="badge ring-0 border-none outline-none   bg-cyan-400 bg-opacity-30 text-cyan-500 font-inter font-normal">
               Tailwindcss
             </li>
           </ul>
@@ -76,7 +76,7 @@ const Projectsec = () => {
         </figure>
 
         <section className="flex flex-col items-center justify-center gap-3 p-2">
-          <h2 className="card-title flex flex-row items-center flex-wrap ">
+          <h2 className="card-title flex flex-row items-center justify-center flex-wrap ">
             <a
               href="https://github.com/KarthikeyaEnge/Attendance_mng"
               className="font-sora-600 text-slate-200 hover:text-sky-400 flex flex-row flex-nowrap gap-2 items-center"
@@ -87,33 +87,33 @@ const Projectsec = () => {
             </a>
             <a
               href="https://github.com/KarthikeyaEnge/Attendance_mng"
-              className="badge hover:text-sky-300"
+              className="badge ring-0 border-none outline-none hover:text-sky-300"
               target="_blank"
             >
               <FaGithub className="m-1" /> Github repo
             </a>
           </h2>
 
-          <p className="text-md font-sora-500">
+          <p className="text-md font-sora-500 text-slate-200">
             A PWA which basically ease daily attendance procedure and has
             features like attendance pdf and excel sheet converter.
           </p>
 
           <h1 className="text-slate-100 font-sora-500">Build with</h1>
           <ul className="flex flex-row gap-3 items-center flex-wrap justify-center">
-            <li className="badge   bg-cyan-400 bg-opacity-30 text-cyan-500 font-inter font-normal">
+            <li className="badge ring-0 border-none outline-none   bg-cyan-400 bg-opacity-30 text-cyan-500 font-inter font-normal">
               ReactJS
             </li>
-            <li className="badge   bg-cyan-400 bg-opacity-30 text-cyan-500 font-inter font-normal">
+            <li className="badge ring-0 border-none outline-none   bg-cyan-400 bg-opacity-30 text-cyan-500 font-inter font-normal">
               ViteJS
             </li>
-            <li className="badge   bg-cyan-400 bg-opacity-30 text-cyan-500 font-inter font-normal">
+            <li className="badge ring-0 border-none outline-none   bg-cyan-400 bg-opacity-30 text-cyan-500 font-inter font-normal">
               Google scripts
             </li>
-            <li className="badge   bg-cyan-400 bg-opacity-30 text-cyan-500 font-inter font-normal">
+            <li className="badge ring-0 border-none outline-none   bg-cyan-400 bg-opacity-30 text-cyan-500 font-inter font-normal">
               DaisyUI
             </li>
-            <li className="badge   bg-cyan-400 bg-opacity-30 text-cyan-500 font-inter font-normal">
+            <li className="badge ring-0 border-none outline-none   bg-cyan-400 bg-opacity-30 text-cyan-500 font-inter font-normal">
               Tailwindcss
             </li>
           </ul>
@@ -127,7 +127,7 @@ const Projectsec = () => {
         </figure>
 
         <section className="flex flex-col items-center justify-center gap-3 p-2">
-          <h2 className="card-title flex flex-row items-center flex-wrap">
+          <h2 className="card-title flex flex-row items-center justify-center flex-wrap">
             <a
               href="https://github.com/KarthikeyaEnge/Learn-web_progs/tree/main/web_adv/webpage_15"
               target="_blank"
@@ -139,32 +139,32 @@ const Projectsec = () => {
             <a
               href="https://github.com/KarthikeyaEnge/Learn-web_progs/tree/main/web_adv/webpage_15"
               target="_blank"
-              className="badge hover:text-sky-300"
+              className="badge ring-0 border-none outline-none hover:text-sky-300"
             >
               <FaGithub className="m-1" /> Github repo
             </a>
           </h2>
 
-          <p className="text-md font-sora-500">
+          <p className="text-md font-sora-500 text-slate-200">
             A web App that acts as a platform for Railway Reservation using user
             authentication, and features like past reservation search and more.
           </p>
 
           <h1 className="text-slate-100 font-sora-500">Build with</h1>
           <ul className="flex flex-row gap-3 items-center flex-wrap justify-center">
-            <li className="badge   bg-cyan-400 bg-opacity-30 text-cyan-500 font-inter font-normal">
+            <li className="badge ring-0 border-none outline-none   bg-cyan-400 bg-opacity-30 text-cyan-500 font-inter font-normal">
               Django
             </li>
-            <li className="badge   bg-cyan-400 bg-opacity-30 text-cyan-500 font-inter font-normal">
+            <li className="badge ring-0 border-none outline-none   bg-cyan-400 bg-opacity-30 text-cyan-500 font-inter font-normal">
               HTML
             </li>
-            <li className="badge   bg-cyan-400 bg-opacity-30 text-cyan-500 font-inter font-normal">
+            <li className="badge ring-0 border-none outline-none   bg-cyan-400 bg-opacity-30 text-cyan-500 font-inter font-normal">
               CSS
             </li>
-            <li className="badge   bg-cyan-400 bg-opacity-30 text-cyan-500 font-inter font-normal">
+            <li className="badge ring-0 border-none outline-none   bg-cyan-400 bg-opacity-30 text-cyan-500 font-inter font-normal">
               JavaScript
             </li>
-            <li className="badge   bg-cyan-400 bg-opacity-30 text-cyan-500 font-inter font-normal">
+            <li className="badge ring-0 border-none outline-none   bg-cyan-400 bg-opacity-30 text-cyan-500 font-inter font-normal">
               SQLite
             </li>
           </ul>
