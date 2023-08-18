@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter&family=Sora:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Krona+One&family=Sora:wght@300;400;500;600;700&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -7,6 +7,7 @@
 
 html {
   scroll-behavior: smooth;
+
 }
 
 .font-inter {
@@ -42,12 +43,25 @@ html {
   font-family: 'inter', sans-serif;
 }
 
+.font-krona {
+  font-family: 'krona one';
+}
+
 .back {
   background-image: url('./assets/sa.png');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
+
+.hback {
+  background-image: url('./assets/hbg.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+
 
 .active-scroll-spy {
   transform: scale(1.5);
@@ -56,4 +70,17 @@ html {
 
 .card {
   color: white;
+}
+
+.scroll_bar::-webkit-scrollbar {
+  width: 5px;
+}
+
+.scroll_bar::-webkit-scrollbar-track {
+  background: rgb(15, 23, 42);
+}
+
+.scroll_bar::-webkit-scrollbar-thumb {
+  background-color: #1eacfe;
+  border-radius: 5rem;
 }
