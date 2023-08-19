@@ -23,12 +23,12 @@ const Hero = () => {
         to="/Home"
         className="z-10 flex flex-row justify-center items-center"
       >
-        <button className="font-krona lg:text-2xl  text-xl py-2 px-3 bg-[#2dd7ce47] text-[#13dbd1d1] rounded-full ring-0 outline-none animate-bounce lg:mt-10  mt-3 hover:animate-none hover:shadow-2xl hover:shadow-[#61c7c2ba] z-10 flex justify-center items-center gap-2">
+        <button className="font-krona lg:text-2xl  text-xl py-2 px-3 bg-[#2dd7ce47] text-[#13dbd1d1] rounded-full ring-0 outline-none animate-bounce lg:mt-10  mt-3 hover:animate-none hover:shadow-2xl hover:shadow-[#61c7c285] z-10 flex justify-center items-center gap-2">
           Wanna Know me <FaPaperPlane className="text-[#13dbd1d1] text-2xl" />
         </button>
       </Link>
 
-      <ul className="flex flex-row justify-center  gap-5 items-center w-2/3 lg:mt-20 self-center mt-28">
+      <ul className="flex flex-row justify-center  gap-5 items-center w-2/3 lg:mt-20 self-center mt-28 z-10">
         <li>
           <a href={import.meta.env.VITE_INSTAGRAM_URL} target="_blank">
             <FaInstagram className="lg:text-3xl text-2xl hover:text-[#0ff0e59c] text-[#0ff0e579]  hover:cursor-pointer" />
@@ -41,7 +41,7 @@ const Hero = () => {
         </li>
         <li>
           <a href={import.meta.env.VITE_GITHUB_URL} target="_blank">
-            <FaGithub className="lg:text-3xl text-2xl hover:text-[#0ff0e59c] text-[#0ff0e579]  hover:cursor-pointer" />
+            <FaGithub className="lg:text-3xl text-2xl hover:text-[#0ff0e59c] text-[#0ff0e579]  hover:cursor-pointer z-20" />
           </a>
         </li>
         <li>
@@ -58,13 +58,13 @@ const Hero = () => {
       <img
         src={img1}
         alt="img"
-        className="absolute lg:h-[750px] h-[450px] w-auto lg:left-3/4 left-1/2 rotate-60  z-0 animate-pulse"
+        className="absolute lg:h-[750px] h-[450px] w-auto lg:left-3/4 left-1/2  rotate-60  z-0 animate-pulse"
       />
 
       <img
         src={img1}
         alt="img"
-        className="absolute lg:h-[150px] w-auto lg:left-1/2 lg:top-1/2 lg:block hidden rotate-60  z-0 animate-pulse"
+        className="absolute h-[150px] w-auto lg:left-1/2 lg:top-1/2   rotate-60  z-0 "
       />
     </main>
   );

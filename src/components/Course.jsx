@@ -1,7 +1,8 @@
 import React from "react";
 import mongodb from "../assets/mongodb.png";
 import meta from "../assets/Meta-Logo.png";
-import { FaLink, FaUpRightFromSquare } from "react-icons/fa6";
+import { FaLink, FaUpRightFromSquare, FaArrowRight } from "react-icons/fa6";
+import { Link } from "react-router-dom";
 
 const Course = () => {
   return (
@@ -117,6 +118,14 @@ const Course = () => {
           </ul>
         </section>
       </article>
+
+      <Link
+        className="flex items-center justify-start gap-3 w-full h-auto p-2 border-b border-cyan-500 text-cyan-500 font-krona"
+        to="/courses"
+      >
+        More
+        <FaArrowRight />{" "}
+      </Link>
     </section>
   );
 };
