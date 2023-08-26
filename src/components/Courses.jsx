@@ -1,7 +1,13 @@
 import React from "react";
 import data from "../data/courses";
 import { Link } from "react-router-dom";
-import { FaArrowLeftLong, FaLink, FaArrowUpLong } from "react-icons/fa6";
+import {
+  FaArrowLeftLong,
+  FaLink,
+  FaArrowUpLong,
+  FaArrowRightLong,
+  FaX,
+} from "react-icons/fa6";
 
 const Courses = () => {
   return (
@@ -32,7 +38,7 @@ const Courses = () => {
         <tbody>
           {data.courses.map((e, i) => {
             return (
-              <tr key={i}>
+              <tr key={i} className="hover:bg-[#17eaea2a]">
                 <td>
                   <img
                     src={e?.img}
@@ -44,15 +50,77 @@ const Courses = () => {
                   <h1 className="font-krona text-cyan-500">{e.id}</h1>
                 </td>
                 <td>
-                  <Link className="font-sora-500 lg:text-sm text-xs text-cyan-500">
+                  <button
+                    className="font-sora-500 lg:text-sm text-xs text-cyan-500"
+                    onClick={() =>
+                      document.getElementById(`model_${i}`).showModal()
+                    }
+                  >
                     {e?.name}
-                  </Link>
+                  </button>
+
+                  <dialog id={`model_${i}`} className="modal scroll_bar">
+                    <form
+                      method="dialog"
+                      className="modal-box  bg-[#8eebf336] backdrop-blur-lg bg-opacity-70"
+                    >
+                      <figure className="rounded-lg overflow-hidden">
+                        <img
+                          src={e?.course_img}
+                          alt="course_img"
+                          className=" h-fit w-auto"
+                        />
+                      </figure>
+
+                      <section className="card-body font-sora-500">
+                        <h1 className="card-title">{e?.name}</h1>
+                        <h3 className="card-tite text-cyan-300">Description</h3>
+                        <p>{e?.desc}</p>
+                        <h2 className="text-cyan-300">Issued by:{e?.iby}</h2>
+                        <h2 className="text-cyan-300">Issued Year:{e?.id}</h2>
+
+                        <ul className="flex flow-row flex-wrap items-center">
+                          <h2>skills</h2>
+                          {e.skills.map((ele, i) => {
+                            return (
+                              <li
+                                className="rounded-full flex items-center justify-center bg-[#2ae2ec53] text-cyan-500 p-1 m-1 w-fit h-auto"
+                                key={i}
+                              >
+                                <h4>{ele}</h4>
+                              </li>
+                            );
+                          })}
+                        </ul>
+
+                        <Link
+                          className="rounded-full flex items-center justify-center bg-[#2ae2ec53] text-cyan-500 p-1 shadow-lg shadow-[#10333b] active:shadow-none"
+                          to={e?.credentials}
+                          target="_blank"
+                        >
+                          <FaLink /> Credentials
+                        </Link>
+
+                        <Link
+                          to={e?.course_link}
+                          className="flex justify-normal gap-1 items-center hover:text-cyan-400  transition-all "
+                        >
+                          <FaLink />
+                          Browse course
+                        </Link>
+                      </section>
+                      <div className="modal-action -mt-10">
+                        <button className="btn">close</button>
+                      </div>
+                    </form>
+                  </dialog>
                 </td>
 
                 <td>
                   <Link
                     className="rounded-full flex items-center justify-center bg-[#2ae2ec53] text-cyan-500 p-1 shadow-lg shadow-slate-950"
                     to={e?.credentials}
+                    target="_blank"
                   >
                     <FaLink /> Credentials
                   </Link>
