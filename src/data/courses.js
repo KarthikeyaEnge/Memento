@@ -23,7 +23,7 @@ const data = {
       course_link: "https://www.coursera.org/learn/principles-of-ux-ui-design",
       credentials:
         "https://www.coursera.org/account/accomplishments/certificate/HBJKQZPUEJSH",
-      skills: ["Web Design", "Front-End Development", "UI/UX"],
+      skills: ["Web Design", "Front-End Development", "UI/UX","Accessibility"],
     },
     {
       name: "MongoDB Node.js Developer Path",

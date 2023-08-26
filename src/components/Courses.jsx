@@ -72,7 +72,7 @@ const Courses = () => {
                         />
                       </figure>
 
-                      <section className="card-body font-sora-500">
+                      <section className="card-body font-sora-500 text-slate-300">
                         <h1 className="card-title">{e?.name}</h1>
                         <h3 className="card-tite text-cyan-300">Description</h3>
                         <p>{e?.desc}</p>
