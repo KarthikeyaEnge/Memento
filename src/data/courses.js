@@ -32,7 +32,7 @@ const data = {
         "https://raw.githubusercontent.com/KarthikeyaEnge/Memento/main/src/assets/mongodb.png",
       iby: "MongoDB",
       id: "2023",
-      desc: "This is a beginner course for learners who would like to prepare themselves for a career in UX/UI development.",
+      desc: "MongoDb Node.js Developer Path course helps developers to learn MongoDB Node.js Drivers and also teaches various topics like Data Modeling, Indexing, Document Model etc.",
       course_link:
         "https://learn.mongodb.com/learning-paths/mongodb-nodejs-developer-path",
       credentials:
