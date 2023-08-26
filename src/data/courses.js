@@ -37,7 +37,15 @@ const data = {
         "https://learn.mongodb.com/learning-paths/mongodb-nodejs-developer-path",
       credentials:
         "https://www.credly.com/badges/24357bcf-9130-4f62-a0e2-c7c6595912ae/linked_in_profile",
-      skills: ["MongoDB", "Node.js", "CRUD"],
+      skills: [
+        "MongoDB",
+        "Node.js",
+        "CRUD",
+        "Drivers",
+        "Data Modeling",
+        "Indexes",
+        "MongoDB Atlas",
+      ],
     },
 
     {
