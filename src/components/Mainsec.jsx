@@ -5,12 +5,16 @@ import img2 from "../assets/phy.png";
 import img3 from "../assets/mdb.png";
 import Projectsec from "./Projectsec";
 import Footer from "./Footer";
-
+import { FaFile } from "react-icons/fa6";
+import Course from "./Course";
 const Mainsec = () => {
   return (
-    <section className="flex-shrink-0  h-auto lg:w-3/5 w-screen flex flex-col flex-nowrap items-center lg:p-2  p-7 lg:pt-36">
+    <section className="flex-shrink-0  h-auto lg:w-3/5 w-screen flex flex-col flex-nowrap items-center lg:p-2  p-7 lg:pt-14 ">
+      {" "}
       <section id="about">
-        <h2 className="font-sora-600 text-slate-100 my-2 lg:hidden">ABOUT</h2>
+        <h2 className="font-sora-600 text-slate-100 my-2 lg:hidden top-0 sticky bg-slate-900 bg-opacity-10 backdrop-blur-md p-2 rounded-lg">
+          ABOUT
+        </h2>
         <p className="font-sora-500 text-slate-300 text-lg">
           I took Computer Science as my undergrad course, thinking I could build
           something useful that people could use to resolve their issues. I took{" "}
@@ -36,11 +40,14 @@ const Mainsec = () => {
           Family and Friends.
         </p>
       </section>
-
       {/* passion section */}
-
       <section id="passion" className="mt-20">
-        <h2 className="font-sora-600 text-slate-100 my-2 ">PASSION</h2>
+        <h2 className="font-sora-600 text-slate-100 my-2 lg:block hidden">
+          PASSION
+        </h2>
+        <h2 className="font-sora-600 text-slate-100 my-2 lg:hidden top-0 sticky bg-slate-900 bg-opacity-10  backdrop-blur-md p-2 rounded-lg z-20">
+          PASSION
+        </h2>
         <section className="w-full flex flex-row flex-wrap items-center justify-center h-fit gap-2 text-slate-100">
           <article className=" card card-compact w-64 bg-white h-96 w-fullrounded-md bg-clip-padding backdrop-filter backdrop-blur-sm  border border-none shadow-lg shadow-black flex-shrink-0 bg-opacity-5">
             <figure className="h-40">
@@ -89,9 +96,7 @@ const Mainsec = () => {
           </article>
         </section>
       </section>
-
       {/**skills section */}
-
       <section id="skills" className="mt-20 ">
         <section className="flex flex-row flex-wrap gap-2 items-center justify-center">
           <article className=" card card-compact w-64 bg-white  w-fullrounded-md bg-clip-padding backdrop-filter backdrop-blur-sm  bg-opacity-5 border border-none shadow-lg shadow-black flex-shrink-0 h-56">
@@ -101,14 +106,18 @@ const Mainsec = () => {
                 Achievements
               </h2>
             </div>
-
-            <figure>
-              {" "}
-              <img src={img3} alt="code" />
-            </figure>
+            <a
+              href="https://www.credly.com/badges/24357bcf-9130-4f62-a0e2-c7c6595912ae/public_url"
+              target="_blank"
+            >
+              <figure>
+                {" "}
+                <img src={img3} alt="code" />
+              </figure>
+            </a>
           </article>
 
-          <article className="flex flex-col gap-2 items-center w-fullrounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-white  bg-opacity-5 border border-none shadow-lg shadow-black p-5 rounded-xl h-56">
+          <article className="flex flex-col gap-2 items-center w-fullrounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-white  bg-opacity-5 border border-none shadow-lg shadow-black p-5 rounded-xl h-56 cursor-pointer">
             <h2 className="font-sora-600 text-slate-100 text-xl">
               Technologies I'v worked
             </h2>
@@ -127,11 +136,18 @@ const Mainsec = () => {
               alt="skills-1"
             />
           </article>
+          <a
+            href={import.meta.env.VITE_RESUME_URL}
+            className=" text-xl font-inter mt-2 flex flex-row flex-nowrap items-center  transition-all hover:text-sky-500 py-2 px-4 border border-sky-500 bg-sky-400 bg-opacity-10 text-white rounded-3xl shadow-sm shadow-black gap-4"
+            target="_blank"
+          >
+            <FaFile /> My Resume
+          </a>
         </section>
       </section>
-
       {/**projects section */}
       <Projectsec />
+      <Course />
       <Footer />
     </section>
   );

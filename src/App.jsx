@@ -1,12 +1,17 @@
 import "./App.css";
-import Headsec from "./components/Headsec";
-import Mainsec from "./components/Mainsec";
+import { Routes, Route } from "react-router-dom";
+import Home from "./components/Home";
+import Hero from "./components/Hero";
+import Courses from "./components/Courses";
 function App() {
   return (
-    <main className="lg:min-h-screen h-auto w-screen flex flex-row flex-wrap lg:px-10 gap-2  back backdrop-blur-lg scroll-smooth">
-      <Headsec />
-      <Mainsec />
-    </main>
+    <>
+      <Routes>
+        <Route index element={<Hero />} />
+        <Route path="Home" element={<Home />} />
+        <Route path="courses" element={<Courses />} />
+      </Routes>
+    </>
   );
 }
 
